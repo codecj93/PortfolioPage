@@ -1,0 +1,14 @@
+body {
+    background-color: darkkhaki;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline solid springgreen;
+}
+
+
+#id {
+    height: 50px;
+    width: 50px;
+}
