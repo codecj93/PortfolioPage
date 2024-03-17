@@ -7,8 +7,64 @@ h1 {
     text-decoration: underline solid springgreen;
 }
 
-
-#id {
-    height: 50px;
-    width: 50px;
+#links {
+    dislay:inline;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 500px;
+    justify-content: space-between;
 }
+
+a:hover {
+    background-color: azure;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p{
+    color: white;
+    font-size: 23px;
+    white-space: normal;
+}
+    
+
+section {
+    margin-bottom: 150px;
+}
+
+.#MyWork {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#self {
+    display:flexbox;
+    width: 1000px;
+}
+
+#information {
+    display: flex
+    text-align: center;
+}
+
+p1, p2 {
+    color: white;
+    font-size: 23px;  
+}
+
+@media screen and (max-width: 750px) {
+    p {
+       overflow-wrap: break-word;
+    }
+    img {
+        width: 75%
+    }  
+}
+
+    
+
+    
+
