@@ -1,23 +1,34 @@
 body {
-    background-color: darkkhaki;
+    background-color: lightgray;
 }
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: underline solid springgreen;
+    text-decoration: underline solid darkgray;
 }
 
 #links {
-    dislay:inline;
+    display:inline;
     display: flex;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
     padding-right: 500px;
     justify-content: space-between;
+    
 }
 
 a:hover {
     background-color: azure;
+}
+
+#AboutMe{
+    background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
 }
 
 h2 {
@@ -35,24 +46,62 @@ section {
     margin-bottom: 150px;
 }
 
-.#MyWork {
+#MyWork {
     margin-top: 100px;
     margin-bottom: 100px;
+    border-style: dotted;
+    background: repeating-linear-gradient(transparent, #ADD8E6 40px),
+    repeating-linear-gradient(0.25turn, transparent, 	#ffffff 20px);
+}
+
+#bio {
+    display: flex;
+    text-align: center;
+
 }
 
 #self {
     display:flexbox;
-    width: 1000px;
+    width: 500px;
+    height: 500px;
 }
 
 #information {
-    display: flex
+    display: flex;
     text-align: center;
 }
 
 p1, p2 {
-    color: white;
+    color: navy;
     font-size: 23px;  
+}
+
+
+#weatherpic {
+    display: flex;
+    text-align: center;
+    width: 800px;
+}
+
+#weatherpic:hover {
+   transform: scale(1.1)
+}
+
+#payrollpic {
+    display: flex;
+    text-align: center;
+    width: 800px;
+    height: 150px;
+}
+
+#payrollpic:hover {
+    transform: scale(1.1)
+ }
+
+#ContactMe {
+    color:navy
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 @media screen and (max-width: 750px) {
